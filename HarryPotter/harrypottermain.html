@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> About HarryPotter </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <input type="button" value="day" class="controller" id="today" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    ">
+    <input type="button" value="night" class="controller" id="tonight" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    ">
+    <span class="bgm">
+      <audio autoplay="autoplay" loop="loop" controls="controls">
+        <source src="HarryPotterPrologue.mp3" type="audio/mp3">
+      </audio>
+  </span>
+    <h1><a href="harrypottermain.html">Harry Potter</a></h1>
+    <div class="menubar">
+      <button class="button manual" onclick=location.href="series.html">Series</button>
+      <button class="button manual" onclick=location.href="characters.html">Characters</button>
+      <button class="button manual" onclick=location.href="hogwarts.html">Hogwarts</button>
+      <button class="button manual" onclick=location.href="spells.html">Spells</button>
+    </div>
+    <div>
+      <a href="https://harrypotter.fandom.com/wiki/Platform_Nine_and_Three-Quarters" target=_blank>
+        <img src="harrypotter_img1.jpg" alt="9 3/4 platform" class="image"></a>
+      <a href="https://bigseventravel.com/york-shambles-harry-potter-guide/" target=_blank>
+        <img src="harrypotter_img2.jpg" alt="The Shambles" class="image"></a>
+      <a href="https://harrypotter.fandom.com/wiki/Hogsmeade" target=_blank>
+        <img src="harrypotter_img3.jpg" alt="Hogsmeade" class="image"></a>
+    </div>
+  </body>
+</html>

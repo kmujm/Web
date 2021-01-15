@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> About HarryPotter Series </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <input type="button" value="day" class="controller" id="today" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    ">
+    <input type="button" value="night" class="controller" id="tonight" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    ">
+    <span class="bgm">
+      <audio autoplay="autoplay" loop="loop" controls="controls">
+        <source src="HarryPotterPrologue.mp3" type="audio/mp3">
+      </audio>
+  </span>
+    <h1><a href ="harrypottermain.html">Harry Potter</a></h1>
+    <div class="menubar">
+      <button class="button manual" onclick=location.href="series.html">Series</button>
+      <button class="button manual" onclick=location.href="characters.html">Characters</button>
+      <button class="button manual" onclick=location.href="hogwarts.html">Hogwarts</button>
+      <button class="button manual" onclick=location.href="spells.html">Spells</button>
+    </div>
+  </body>
+</html>

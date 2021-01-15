@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> About Hogwarts </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <input type="button" value="day" class="controller" id="today" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    ">
+    <input type="button" value="night" class="controller" id="tonight" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    ">
+    <span class="bgm">
+      <audio autoplay="autoplay" loop="loop" controls="controls">
+        <source src="HarryPotterPrologue.mp3" type="audio/mp3">
+      </audio>
+  </span>
+    <h1><a href ="harrypottermain.html">Harry Potter</a></h1>
+    <div class="menubar">
+      <button class="button manual" onclick=location.href="series.html">Series</button>
+      <button class="button manual" onclick=location.href="characters.html">Characters</button>
+      <button class="button manual" onclick=location.href="hogwarts.html">Hogwarts</button>
+      <button class="button manual" onclick=location.href="spells.html">Spells</button>
+    </div>
+    <div class="hogwarts_houses">
+      <houses class="houses gryffindor">
+        <a href="https://harrypotter.fandom.com/wiki/Gryffindor" target=_blank>
+          <img src="https://media1.tenor.com/images/3a943d0a82fac73aabb9e1bc57b24800/tenor.gif?itemid=5903488" alt="Gryffindor"></a>
+        <h3>Gryffindor</h3>
+      </houses>
+      <houses class="houses slytherin">
+        <a href="https://harrypotter.fandom.com/wiki/Slytherin" target=_blank>
+          <img src="https://media1.tenor.com/images/463b937ae9dccedb1e807c69406a59cb/tenor.gif?itemid=4932529" alt="Slytherin"></a>
+        <h3>Slytherin</h3>
+      </houses>
+      <houses class="houses ravenclaw">
+        <a href="https://harrypotter.fandom.com/wiki/Ravenclaw" target=_blank>
+          <img src="https://media1.tenor.com/images/e868ee9543921490391f917a3d70604f/tenor.gif?itemid=5254360" alt="Ravenclaw"></a>
+        <h3>Ravenclaw</h3>
+      </houses>
+      <houses class="houses hufflepuff">
+        <a href="https://harrypotter.fandom.com/wiki/Hufflepuff" target=_blank>
+          <img src="https://media1.tenor.com/images/01b056162e88f00a043abb3836062562/tenor.gif?itemid=5198718" alt="Hufflepuff"></a>
+        <h3>Hufflepuff</h3>
+      </houses>
+    </div>
+  </body>
+</html>
